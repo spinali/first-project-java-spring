@@ -1,0 +1,15 @@
+<!doctype html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8" />
+    <title>My first Spring project</title>
+</head>
+<body>
+    <p th:text="'Hello, ' + ${name} + '!'" />
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nisl enim, pulvinar sed vehicula nec, sodales sit amet ligula.
+    </p>
+    <img th:src="@{/images/logo.png}" width="600" height="682" />
+</body>
+</html>
